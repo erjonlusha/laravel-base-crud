@@ -18,7 +18,19 @@
                     <td scope="row"></td>
                     <td>{{$post->title}}</td>
                     <td>{{$post->body}}</td>
-                    <td>View | Edit | Delete</td>
+                    <td>
+                        <a href="{{route('posts.show', ['post'=> $post->id])}}" class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="{{route('posts.edit', ['post'=> $post->id])}}" class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        
+                            
+
+
+                        <form action="{{route('posts.destroy', ['post'=> $post->id])}}" method="post">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></button>
+                        </form>
+                    </td>
                 </tr>
             @endforeach
         </tbody>

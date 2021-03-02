@@ -17,17 +17,6 @@ class PageController extends Controller
     }
 
     /**
-     * Show posts page
-     * @return view
-     */
-    public function posts(Post $post)
-    {
-        $posts = $post->all();
-        // dd($posts); 
-        return view('posts', compact('posts'));
-    }
-
-    /**
      * Show contact page
      * @return view
      */

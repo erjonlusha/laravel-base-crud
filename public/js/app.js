@@ -49995,8 +49995,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\erion\Desktop\Boolean\Classe23\laravel-base-crud\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\erion\Desktop\Boolean\Classe23\laravel-base-crud\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\erion\Desktop\Nuovo progetto - README\live17-02\Blog\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\erion\Desktop\Nuovo progetto - README\live17-02\Blog\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
